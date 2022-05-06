@@ -83,17 +83,17 @@ data_action = [
         ]
     },
     {
-        title: "Протолкнутся",
+        title: "Протолкнуться",
         icon: "bulldozer",
         subtitle: "Базовый боевой манёвр",
-        description: "Используйте действие или бонусное действие чтобы протолкнутся через врага",
+        description: "Используйте действие или бонусное действие чтобы протолкнуться через врага",
         reference: "Adventurer's Guide, pg. 459",
         bullets: [
-            "Make a Strength saving throw against the target's maneuver DC.",
-            "On a success, you deal basic melee damage and can move through the hostile creature's space once this turn.",
-            "You have advantage if you are larger than the target, or disadvantage if you are smaller.",
-            " If you are two or more sizes smaller than the target, you can move through the hostile creature's space without making a save.",
-            "You still provoke opportunity attacks if you move beyond a creature's reach."
+            "Совершите спасбросок Силы против Сложности манёвра цели.",
+            "На успех, вы наносите базовый урон и можете двигаться через враждебное существо один раз за этот ход.",
+            "У вас преимущество, если вы больше цели, или помеха если вы меньше.",
+            "Если вы в два или раза меньше цели, вы можете двигаться через вражеское существо без спасброска.",
+            "Вы провоцируете Атаки по возможности если двигаетесь в пределах досягаемости существа."
         ]
     },
     {
@@ -117,10 +117,10 @@ data_action = [
         description: "Наложите заклинание за время 1 действи",
         reference: "Adventurer's Guide, pg. 442, 491.",
         bullets: [
-            "You can't cast a spell with your action and a different spell with your bonus action in the same turn, except if the action is used to cast a cantrip.",
-            "The target of a spell must be within the spell's range. To target something, you must have a clear path to it, so it can't be behind total cover.",
-            "Spells with material components do not consume the material unless explicitly stated. Unless the cost of a material is given, you can assume that the cost is negligible and the material is simply available in a component pouch.",
-            "Some spells require you to maintain concentration in order to keep their magic active. If you lose concentration, such a spell ends. You lose concentration on a spell if you cast another spell that requires concentration or when you are incapacitated. Each time you take damage, you must make a Constitution saving throw to maintain your concentration. The DC equals 10 or half the damage you take, whichever number is higher."
+            "Вы не можете наложить заклинание основным действием и другое заклинание бонусным действием за один ход, кроме случаев, когда действием был наложен заговор.",
+            "Цель заклинания должна находиться в пределах дистанции заклинания. Цель также должна быть в прямой видимости - поэтому у цели не должно быть полного укрытия.",
+            "Заклинания с материальным компонентом не расходуют компонент при наложении, если обратное не сказано в описании заклинания. Если для компонента указана стоимость, то этот компонент расходуется при наложении.",
+            "Некоторые заклинания обязывают поддерживать концентрацию чтобы поддерживать накладывание заклинания активным. Если вы теряете концентрацию, такое заклинание прерывается. Вы теряете концентрацию если применяете другое заклинание что требует концентрации, либо если вы недееспособны. Каждый раз что вы получаете урон, совершите спасбросок Телосложения, чтобы поддерживать концентрацию. Сложность равна 10 либо половине от получаемого урона, в зависимости от того какая цифра больше."
         ]
     },
     {
@@ -150,8 +150,8 @@ data_action = [
         description: "Сфокусируйтесь на увороте от атак",
         reference: "Adventurer's Guide, pg. 442",
         bullets: [
-            "Until the start of your next turn, any attack roll made against you has disadvantage if you can see the attacker, and you make Dexterity saving throws with advantage.",
-            "You lose this benefit if you are <i>incapacitated</i> or if your speed drops to 0."
+            "До начала следующего хода, любой бросок на атаку против вас совершается с помехой если вы видите атакующего, вы можете совершить спасброски Ловкости с преимуществом.",
+            "Вы теряете этот эффект, если вы <i>недееспособны</i> либо ваша скорость упала до 0."
         ]
     },
     {
@@ -161,23 +161,21 @@ data_action = [
         description: "Помочь союзнику в атаке или проверке способности",
         reference: "Adventurer's Guide, pg. 442",
         bullets: [
-            "The target gains advantage on the next ability check it makes to perform the task you are helping with.",
-            "Alternatively, the target gains advantage on the next attack roll against against a creature within 5 feet of you.",
-            "The advantage lasts until the start of your next turn."
+            "Существо, которому вы помогаете, совершит свою следующую проверку характеристики для выполнения задачи с преимуществом, если она будет совершена до начала вашего следующего хода.",
+            "В качестве альтернативы, вы можете помочь дружественному существу атаковать другое существо, находящееся в пределах 5 футов от вас. Вы совершаете финт, отвлекаете цель или каким-то другим образом делаете атаку союзника более эффективной. Если ваш союзник атакует цель до начала вашего следующего хода, первый бросок атаки совершается с преимуществом.",
+            "Преимущество длится до начала вашего следующего хода."
         ]
     },
     {
         title: "Спрятаться",
         icon: "hood",
-        subtitle: "Тс-с-с",
+        subtitle: "Тише, тише",
         description: "Попытка спрятаться",
         reference: "Adventurer's Guide, pg. 443",
         bullets: [
-            "You can't hide from a creature that can see you. You must have total cover, be in a heavily obscured area, be invisible, or otherwise block the enemy's vision.",
-            "If you make noise (such as shouting a warning or knocking over a vase), you give away your position.",
-            "When you try to hide, make a Dexterity (Stealth) check and note the result. Until you are discovered or you stop hiding, that check's total is contested by the Wisdom (Perception) check of any creature that actively searches for signs of your presence.",
-            "A creature notices you even if it isn't searching unless your Stealth check is higher than its Passive Perception.",
-            "Out of combat, you may also use a Dexterity (Stealth) check for acts like concealing yourself from enemies, slinking past guards, slipping away without being noticed, or sneaking up on someone without being seen or heard."
+            "Вы не можете прятаться от существа, которое видит вас, и если вы издадите шум (например, прокричите предупреждение или уроните вазу), вы выдаёте своё местоположение.",
+            "Когда вы пытаетесь спрятаться, совершите проверку Ловкости (Скрытность). Пока вас не найдут или вы не прекратите прятаться, результат этой проверки будет противостоять проверкам Мудрости (Внимательность) существ, активно ищущих вас.",
+            "Если вы прячетесь, есть шанс, что вас заметят даже без активных поисков. Для определения того, заметило ли вас существо, ДМ сравнивает результат вашей проверки Ловкости (Скрытность) с пассивным значением Мудрости (Внимательность), которое равно 10 + модификатор Мудрости существа."
         ]
     },
     {
@@ -187,10 +185,10 @@ data_action = [
         description: "Выберите условие и ответное действие",
         reference: "Adventurer's Guide, pg. 443",
         bullets: [
-            "First, you decide what perceivable circumstance will trigger your reaction.",
-            "Then, you choose the action you will take in response to that trigger, or you choose to move up to your speed in response to it.",
-            "When the trigger occurs, you can either take your reaction right after the trigger finishes or ignore the trigger.",
-            "When you ready a spell, you cast it as normal but hold its energy, which you release with your reaction when the trigger occurs. To be readied, a spell must have a casting time of 1 action, and holding onto the spell's magic requires concentration"
+            "Во-первых, определите, какое воспринимаемое событие вызовет вашу реакцию.",
+            "Затем выберите действие, либо перемещение, которое будет совершено.",
+            "Когда срабатывает условие, вы можете либо совершить свою реакцию до окончания действия, вызвавшего срабатывание, либо игнорировать срабатывание условия. Подготовленное действие можно совершить только до начала вашего следующего хода. Помните, что вы можете совершить только одну реакцию в раунд.",
+            "Если вы подготовили заклинание, вы накладываете его как обычно, но удерживаете энергию, пока не сработает условие. Для того чтобы заклинание можно было подготовить, у него должно быть время накладывания «1 действие», а удерживание магии требует концентрации. Если концентрация прервана, заклинание тратится без всякого эффекта."
         ]
     },
     {
@@ -210,27 +208,27 @@ data_action = [
         description: "Бегите в 4 раза быстрее",
         reference: "Adventurer's Guide, pg. 443",
         bullets: [
-            "You may not take any other actions, bonus actions or reactions other than your move speed for the turn.",
-            "If you are unencumbered, your Speed is quadrupled for one turn. If you are encumbered or wearing heavy armor, your Speed is tripled for one turn.",
-            "You must Sprint in a straight line each turn, although you can change direction each time you Sprint.",
-            "You may Sprint for a number of turns equal to your Constitution modifier.",
-            "Each turn you Sprint after that, you make a Constitution (Athletics) check (DC 10 + 1 per previous check made in the last minute) or you suffer a level of fatigue.",
-            "You recover fatigue suffered from sprinting one minute after you stop sprinting."
+            "Вы можете не предпринимать никаких другий действий, бонусных действий или реакций, которые не являются перемещением в этот ход.",
+            "Если вы не перегружены, ваша Скорость увеличивается четырежды на один ход. Если вы перегружены либо носите тяжёлую броню, ваша Скорость утроена на один ход.",
+            "Вы должны использовать Спринт по ровной линии каждый ход, хотя вы можете менять направление каждый раз когда используете Спринт.",
+            "Вы можете использовать Спринт количество ходов, равное вашему модификатору Телосложения.",
+            "Каждый ход что вы используете Спринт после этого, вы совершаете проверку Телосложения (Атлетика) (Сложностью 10 + 1 за каждую проверкую сделанную за последнюю минуту) или вы получаете уровень истощения.",
+            "Вы восстанавливаете истощение которое наступило после Спринта через минуту после окончания Спринта."
         ]
     },
     {
-        title: "Tumble",
+        title: "Кувырок",
         icon: "rolling-energy",
-        subtitle: "Tumble past an enemy",
-        description: "Move through an enemy's space",
+        subtitle: "Кувырок через врага",
+        description: "Кувырок через пространство, что занимает враг",
         reference: "Adventurer's Guide, pg. 444",
         bullets: [
-            "You can use an Action or Bonus Action to Tumble through a hostile creature's space",
-            "Make a Dexterity saving throw against the Target's combat maneuver DC.",
-            "On a success, you can move through the hostile creature's space once this turn.",
-            "If you have proficiency in Acrobatics, you gain an expertise die on the save (or you gain a 1d6 expertise die if you also have the tumbling specialty).",
-            "If you are smaller than the target, you have advantage. If you are two or more sizes larger, you can move through uncontested.",
-            "You still provoke Opportunity attacks if you move beyond a creature's reach"
+            "Вы можете использовать Действие либо Бонусное действие чтобы Кувыркнуться через место, что занимает вражеское существо",
+            "Совершите спасбросок Ловкости против Сложности манёвра цели.",
+            "На успех, вы можете пройти через место, что занимает вражеское существо, один раз за этот ход.",
+            "Если у вас мастерство в Акробатике, вы получаете куб экспертизы на спасбросок (или получаеге 1к6 куб экспертизы если у вас есть специальность Кувырок).",
+            "Если вы меньше цели, у вас преимущество. Если вы в два или более раз больше, вы можете двигаться без сопротивления.",
+            "Вы всё ещё провоцируете Атаки по возможности если двигаетесь в пределах досягаемости существа."
         ]
     },
     {
