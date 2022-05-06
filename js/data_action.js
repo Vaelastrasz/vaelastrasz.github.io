@@ -1,48 +1,48 @@
 data_action = [
     {
-        title: "Attack",
+        title: "Атака",
         icon: "crossed-swords",
-        subtitle: "Melee or ranged attack",
-        description: "Perform a melee or ranged attack with your weapon",
+        subtitle: "Ближняя или дальняя атака",
+        description: "Совершение ближнего либо дальнего удара вашим оружием",
         reference: "Adventurer's Guide, pgs. 443-447.",
         bullets: [
-            "Certain features, such as the <i>Extra Attack</i> feature of the fighter, allow you to make more than one attack with this action. Each of these attacks is a separate roll and may target different creatures. You may move in between these attacks.",
-            "When you attack with a weapon that does not have the heavy property and is wielded in one hand, you can use a bonus action to attack with a different dual-wielding weapon in your other hand (see the <i>Offhand attack</i> bonus action).",
-            "You may replace one of your melee attacks with a <i>Basic Maneuver</i>.",
-            "Some conditions give advantage on the attack: attacks against blinded, paralyzed, petrified, restrained, stunned, or unconscious targets; melee attacks against prone targets; attacks by invisible or hidden attackers.",
-            "Some conditions give disadvantage on the attack: attacks against invisible or hidden targets; ranged attacks against prone targets; attacks by blinded, frightened, poisoned, or restrained attackers."
+            "Некоторые умения, такие как <i>Дополнительная атака</i> у воина, позволяют совершать несколько атак одним действием. Каждая такая атака использует отдельный бросок и может иметь другую цель. Между основной и дополнительной атакой можно двигаться.",
+            "Когда вы атакуете лёгким рукопашным оружием, вы можете использовать оружие во второй руке, чтобы совершить бонусную атаку (см. бонусное действие <i>Атака второй рукой</i>).",
+            "Вы можете заменить вторую атаку на <i>Базовый боевой манёвр</i>",
+            "Некоторые состояния дают преимущество при атаке: атака против слепых, парализованных, окаменевших, опутанных или бессознательных целей; атаки, совершаемые невидимыми или скрывающимися нападающими.",
+            "Некоторые состояния дают помехи при атаке: атака против невидимых или скрытых целей; дальнобойный атаки против лежащих целей; атаки, совершаемые слепыми, напуганными, отравленными или опутанными нападающими."
         ]
     },
     {
-        title: "Basic Maneuvers",
+        title: "Базовые манёвры",
         icon: "crossed-swords",
-        subtitle: "Melee basic maneuvers",
-        description: "Perform a basic combat maneuver",
+        subtitle: "Ближние базовые манёвры",
+        description: "Совершение базового боевого манёвра",
         reference: "Adventurer's Guide, pgs. 458-459.",
         bullets: [
-            "When you successfully use a basic maneuver you also deal basic melee damage. This is equal to 1 + your Strength modifier.",
-            "You cannot use a basic maneuver to activate any features that deal additional damage (such as Sneak Attack or Divine Smite) unless the feature specifically states otherwise",
-            "A maneuver sometimes forces a target to make a saving throw to resist its effects. The saving throw DC is calculated as follows: Maneuver DC = 8 + your proficiency bonus + your Strength or Dexterity modifier Combat maneuvers are nonmagical.",
+            "Когда вы успешно используете боевой манёвр вы также наносите физический урон. Урон равен 1 + модификатору Силы",
+            "Вы не можете использовать боевой манёвр чтобы активировать любую способность что наносит дополнительный урон (такие как Sneak Attack или Divine Smite) если в способности не указано обратного",
+            "Манёвр иногда вынуждает цель совершить спасбросок чтобы противостоять его эффекту. Спасбросок высчитывается следующим образом: 8 + мастерство + модификатор Силы или Ловкости. Боевые манёвры не являются магией"
         ]
     },
     {
-        title: "Disarm",
+        title: "Разоружение",
         icon: "drop-weapon",
-        subtitle: "Basic Combat Maneuver",
-        description: " attempt to knock an item or weapon from a creature's hand",
+        subtitle: "Базовый боевой манёвр",
+        description: "Попытка выбить из руки существа предмет или оружие", 
         reference: "Adventurer's Guide, pg. 458",
         bullets: [
-            "The target must be within your reach and be holding an item (either carried or wielded)",
-            "The target makes a Strength or Dexterity saving throw against your maneuver DC.",
-            "On a failure, you deal basic melee damage and the target drops the item in its space",
-            "The target has advantage if it is larger than you or holding the item with two or more hands, and a target smaller than you has disadvantage."
+            "Цель должна быть в вашей досягаемости и держать предмет (носимый или экипированный)",
+            "Цель совершает спасбросок Силы либо Ловкости против вашего манёвра",
+            "На провал, вы наносите базовый урон и цель бросает предмет в пределах своего пространства",
+            "У цели преимущество если она больше вас либо держит предмет в двух или больше руках, также цель меньше вас получает помеху."
         ]
     },
     {
-        title: "Grab On",
+        title: "Взобраться",
         icon: "mountain-climbing",
-        subtitle: "Basic Combat Maneuver",
-        description: "Attempt to grab on to a creature",
+        subtitle: "Базовый боевой манёвр",
+        description: "Попытка взобраться на существо",
         reference: "Adventurer's Guide, pg. 458",
         bullets: [
             "Attempt to grab on to a creature two or more size categories larger than you and climb or jump onto it's back.",
@@ -54,27 +54,26 @@ data_action = [
         ]
     },
     {
-        title: "Grapple",
+        title: "Схватить",
         icon: "grab",
-        subtitle: "Basic Combat Maneuver",
-        description: "Attempt to grab a creature or wrestle with it",
+        subtitle: "Базовый боевой манёвр",
+        description: "Попытка схватить существо или бороться с ним",
         reference: "Adventurer's Guide, pg. 458-459",
         bullets: [
-            "Using the <i>Attack</i> action, you can make a special melee attack to shove a creature. If you're able to make multiple attacks with the Attack action, this attack replaces one of them.",
-            "The target of your grapple must be no more than one size larger than you, and it must be within your reach.",
-            "Using at least one free hand, you try to seize the target by making a grapple check, The target makes a Strength or Dexterity saving throw against your maneuver DC.",
-            "The target makes a Strength or Dexterity saving throw against your maneuver DC.",
-            "On a failure, you deal basic melee damage and the target becomes grappled (see Appendix A: Conditions on page 616).",
+            "Если вы хотите схватить существо или побороться с ним, вы можете использовать действие <i>Атака</i> для совершения особой рукопашной атаки, захвата. Если вы можете совершать многочисленные атаки действием <i>Атака</i>, эта атака заменяет одну из них.",
+            "Цель вашего захвата должна быть не более чем на одну категорию больше вас, и она должна находиться в пределах вашей досягаемости.",
+            "Используя как минимум одну свободную руку, вы пытаетесь схватить цель, совершая проверку захвата: проверку Силы (Атлетика), противопоставленную проверке Силы (Атлетика) или Ловкости (Акробатика) цели (цель сама выбирает, какую характеристику использовать).",
+            "Если вы преуспеете, цель становится схваченной. В описании состояния сказано, что его оканчивает, и вы в любой момент можете отпустить цель (действие не требуется).",
             "While grappled, a creature can use its action to attempt to escape. It must succeed on a Strength or Dexterity saving throw against your maneuver DC.",
             "When you move, you can drag or carry the grappled creature with you. When you do so, your Speed is halved, unless the creature's weight is within your carrying capacity and you are not encumbered by bulky items.",
             "You can use the Grapple maneuver to try to free another grappled or restrained creature. The creature grappling or restraining the target makes a Strength saving throw against your maneuver DC. If it fails the saving throw, the grappled or restrained creature is freed. Additionally, you may move the freed creature 5 feet in any direction."
         ]
     },
     {
-        title: "Knockdown",
+        title: "Нокдаун",
         icon: "tripwire",
-        subtitle: "Basic Combat Maneuver",
-        description: "Trip or push a creature down",
+        subtitle: "Базовый боевой манёвр",
+        description: "Сбейте врага с ног",
         reference: "Adventurer's Guide, pg. 459",
         bullets: [
             "Using the <i>Attack</i> action, you can make a special melee attack to shove a creature. If you're able to make multiple attacks with the Attack action, this attack replaces one of them.",
@@ -84,10 +83,10 @@ data_action = [
         ]
     },
     {
-        title: "Overrun",
+        title: "Протолкнутся",
         icon: "bulldozer",
-        subtitle: "Basic Combat Maneuver",
-        description: "Use an action or Bonus action to move through a creature's space",
+        subtitle: "Базовый боевой манёвр",
+        description: "Используйте действие или бонусное действие чтобы протолкнутся через врага",
         reference: "Adventurer's Guide, pg. 459",
         bullets: [
             "Make a Strength saving throw against the target's maneuver DC.",
@@ -98,10 +97,10 @@ data_action = [
         ]
     },
     {
-        title: "Shove",
+        title: "Толкнуть",
         icon: "hand",
-        subtitle: "Basic Combat Maneuver",
-        description: "Shove a creature, either to knock it prone or push it away from you",
+        subtitle: "Базовый боевой манёвр",
+        description: "Толкните существо, чтобы сбить его с ног или оттолкнуть от себя",
         reference: "Adventurer's Guide, pg. 459",
         bullets: [
             "Using the <i>Attack</i> action, you can make a special melee attack to shove a creature. If you're able to make multiple attacks with the Attack action, this attack replaces one of them.",
@@ -112,10 +111,10 @@ data_action = [
         ]
     },
     {
-        title: "Cast a spell",
+        title: "Наложить заклинание",
         icon: "magic-swirl",
-        subtitle: "Cast time of 1 action",
-        description: "Cast a spell with a casting time of 1 action",
+        subtitle: "Время каста - 1 действие",
+        description: "Наложите заклинание за время 1 действи",
         reference: "Adventurer's Guide, pg. 442, 491.",
         bullets: [
             "You can't cast a spell with your action and a different spell with your bonus action in the same turn, except if the action is used to cast a cantrip.",
@@ -125,23 +124,23 @@ data_action = [
         ]
     },
     {
-        title: "Dash",
+        title: "Рывок",
         icon: "sprint",
-        subtitle: "Double movement speed",
-        description: "Gain extra movement for the current turn",
+        subtitle: "Удваивает скорость движения",
+        description: "До конца текущего хода ваша скорость удваивается",
         reference: "Adventurer's Guide, pg. 442",
         bullets: [
-            "The increase equals your speed, after applying any modifiers."
+            "Если вы совершаете действие Рывок, вы получаете дополнительное перемещение в текущем ходу, равное вашей скорости после применения всех модификаторов."
         ]
     },
     {
-        title: "Disengage",
+        title: "Разрыв дистанции",
         icon: "journey",
-        subtitle: "Prevent opportunity attacks",
-        description: "Your movement doesn't provoke opportunity attacks for the rest of the turn",
+        subtitle: "Разорвите дистанцию ближнего боя",
+        description: "Попытка высвобождения из захвата или от оков",
         reference: "Adventurer's Guide, pg. 442",
         bullets: [
-            "Movement does not provoke opportunity attacks for the rest of the turn."
+            "Высвобождение не провоцирует вражеские атаки до конца хода."
         ]
     },
     {
