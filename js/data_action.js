@@ -45,12 +45,12 @@ data_action = [
         description: "Попытка взобраться на существо",
         reference: "Adventurer's Guide, pg. 458",
         bullets: [
-            "Attempt to grab on to a creature two or more size categories larger than you and climb or jump onto it's back.",
-            "Make a Strength or Dexterity saving throw against the creature's maneuver DC to cling to or balance upon its body",
-            "On a success, you move into the creature's space and can move upon its body as if it is difficult terrain.",
-            "While grabbing onto a larger creature, you gain advantage on attack rolls against it.",
-            "A creature can can also use an action or replace one of its attacks on its turn to try to dislodge you, such as shaking you loose or bashing you against a wall, forcing you to make a Strength or Dexterity saving throw against its maneuver DC or fall prone into the nearest space adjacent to the creature, taking its basic melee damage in the process.",
-            "If the creature chooses to roll over in order to dislodge you, it becomes prone, but you have disadvantage on the saving throw to hang on."
+            "Попытка залезть на спину существа, которое на две или больше категории больше вас.",
+            "Сделайте спасбросок Силы либо Ловкости против Сложности манёвра существа чтобы сохранить баланс, карабкаясь по его телу",
+            "В случае успеха, вы двигаетесь на пространство существа и можете двигаться по его телу как по труднопроходимой местности.",
+            "Когда вы залезли на большое существо, у вас преимущество на атакующие броски против него.",
+            "Существо может потратить действие или заменить одну из своих атак в ходу чтобы попробовать вас сбросить (например стряхивая вас, или ударяя о стену), вынуждая вас совершить спасбросок Силы или Ловкости против его Сложности манёвра или упасть ничком в ближайшее место рядом с существом, получая базовый урон ближнего боя в процессе.",
+            "Если существо выбирает перекат чтобы вас сбросить, оно падает ничком, но у вас помеха на спасброски на попытку удержаться на существе."
         ]
     },
     {
@@ -64,9 +64,9 @@ data_action = [
             "Цель вашего захвата должна быть не более чем на одну категорию больше вас, и она должна находиться в пределах вашей досягаемости.",
             "Используя как минимум одну свободную руку, вы пытаетесь схватить цель, совершая проверку захвата: проверку Силы (Атлетика), противопоставленную проверке Силы (Атлетика) или Ловкости (Акробатика) цели (цель сама выбирает, какую характеристику использовать).",
             "Если вы преуспеете, цель становится схваченной. В описании состояния сказано, что его оканчивает, и вы в любой момент можете отпустить цель (действие не требуется).",
-            "While grappled, a creature can use its action to attempt to escape. It must succeed on a Strength or Dexterity saving throw against your maneuver DC.",
-            "When you move, you can drag or carry the grappled creature with you. When you do so, your Speed is halved, unless the creature's weight is within your carrying capacity and you are not encumbered by bulky items.",
-            "You can use the Grapple maneuver to try to free another grappled or restrained creature. The creature grappling or restraining the target makes a Strength saving throw against your maneuver DC. If it fails the saving throw, the grappled or restrained creature is freed. Additionally, you may move the freed creature 5 feet in any direction."
+            "Когда схвачено, существо может использовать своё действие чтобы попытаться выбраться. Оно должно преуспеть в спасброске Силы или Ловкости против вашей Сложности маневров",
+            "Когда вы двигаетесь, вы можете перетаскивать захваченное существо с вами. Когда вы это делаете, ваша Скорость падает вдвое, если вес существа не меньше вашего возможного переносимого веса.",
+            "Вы можете использовать Схватить чтобы попытаться освободить другое схваченное существо. Существо, против которого вы это применили, совершает спасбросок Силы против вашей Сложности манёвра. Если оно проваливает, захваченное существо освобождено. Дополнительно вы можете переместить освобождённое существо на 5 футов в любом направлении"
         ]
     },
     {
@@ -76,10 +76,10 @@ data_action = [
         description: "Сбейте врага с ног",
         reference: "Adventurer's Guide, pg. 459",
         bullets: [
-            "Using the <i>Attack</i> action, you can make a special melee attack to shove a creature. If you're able to make multiple attacks with the Attack action, this attack replaces one of them.",
-            "The target of your shove must be no more than one size larger than you, and it must be within your reach.",
-            "The target makes a Strength saving throw against your maneuver DC.",
-            "On a failure, you deal basic melee damage and knock the target prone."
+            "Используя действие <i>Атаки</i> вы можете совершить специальню атаку ближнего боя чтобы сбить существо с ног. Если вы можете совершить несколько действий Атаки, это действие заменяет одно из них.",
+            "Цель должна быть не более чем на одну категорию больше вас и должна быть досягаема.",
+            "Цель совершает спасбросок Силы против вашей Сложности манёвра",
+            "На провал, вы наносите базовый урон и сбиваете цель с ног."
         ]
     },
     {
@@ -103,11 +103,11 @@ data_action = [
         description: "Толкните существо, чтобы сбить его с ног или оттолкнуть от себя",
         reference: "Adventurer's Guide, pg. 459",
         bullets: [
-            "Using the <i>Attack</i> action, you can make a special melee attack to shove a creature. If you're able to make multiple attacks with the Attack action, this attack replaces one of them.",
-            "The target of your shove must be no more than one size larger than you, and it must be within your reach.",
-            "The target makes a Strength saving throw against your maneuver DC.",
-            "On a failure, you deal basic melee damage and push the target a number of feet away from you equal to 5 + 5 for every 5 points it failed its saving throw by. You can move the creature in any direction away from you (to the side, forward, or diagonally away).",
-            "A creature that is shoved off of a precipice is propelled off of whatever it is standing on—it does not receive any saving throw or ability check to grab onto something to avoid falling down below."
+            "При помощи действия Атака совершить особую рукопашную атаку, чтобы или сбить цель с ног, или оттолкнуть от себя. Если вы можете совершать многочисленные атаки действием Атака, эта атака может заменить одну из них.",
+            "Цель вашего толкания должна быть не более чем на одну категорию больше вас, и она должна находиться в пределах вашей досягаемости.",
+            "Цель совершает спасбросок Силы против вашей Сложности манёвра",
+            "На провал, вы наносите базовый урон и отталкиваете цель на количество футов равное 5 + 5 за каждые 5 пунктов на которое провалило спасбросок. Вы можете оттолкнуть существо в любом направлении от вас (в сторону, вперёд, диагонально).",
+            "Существо, которое столкнули с обрыва, срывается с того места, на котором оно стояло — оно не получает никаких спасбросков или проверок способности схватиться за что-то, чтобы не упасть вниз."
         ]
     },
     {
@@ -144,10 +144,10 @@ data_action = [
         ]
     },
     {
-        title: "Dodge",
+        title: "Уворот",
         icon: "aura",
-        subtitle: "Increase defenses",
-        description: "Focus entirely on avoiding attacks",
+        subtitle: "Повышает защиту",
+        description: "Сфокусируйтесь на увороте от атак",
         reference: "Adventurer's Guide, pg. 442",
         bullets: [
             "Until the start of your next turn, any attack roll made against you has disadvantage if you can see the attacker, and you make Dexterity saving throws with advantage.",
@@ -155,10 +155,10 @@ data_action = [
         ]
     },
     {
-        title: "Help",
+        title: "Помощь",
         icon: "telepathy",
-        subtitle: "Grant an ally advantage",
-        description: "Grant an ally advantage on an ability check or attack",
+        subtitle: "Помочь союзнику",
+        description: "Помочь союзнику в атаке или проверке способности",
         reference: "Adventurer's Guide, pg. 442",
         bullets: [
             "The target gains advantage on the next ability check it makes to perform the task you are helping with.",
@@ -167,10 +167,10 @@ data_action = [
         ]
     },
     {
-        title: "Hide",
+        title: "Спрятаться",
         icon: "hood",
-        subtitle: "Sneaky Sneaky",
-        description: "Attempt to hide",
+        subtitle: "Тс-с-с",
+        description: "Попытка спрятаться",
         reference: "Adventurer's Guide, pg. 443",
         bullets: [
             "You can't hide from a creature that can see you. You must have total cover, be in a heavily obscured area, be invisible, or otherwise block the enemy's vision.",
@@ -181,10 +181,10 @@ data_action = [
         ]
     },
     {
-        title: "Ready",
+        title: "Готовность",
         icon: "stopwatch",
-        subtitle: "Choose trigger and action",
-        description: "Choose a trigger and a response reaction",
+        subtitle: "Выберите условие и действие",
+        description: "Выберите условие и ответное действие",
         reference: "Adventurer's Guide, pg. 443",
         bullets: [
             "First, you decide what perceivable circumstance will trigger your reaction.",
@@ -194,20 +194,20 @@ data_action = [
         ]
     },
     {
-        title: "Search",
+        title: "Поиск",
         icon: "magnifying-glass",
-        subtitle: "",
-        description: "Devote your attention to finding something",
+        subtitle: "Внимательно ищите",
+        description: "Направьте всю вашу внимательность на поиск",
         reference: "Adventurer's Guide, pg. 443",
         bullets: [
-            "Depending on the nature of your search, the DM might have you make a Wisdom (Perception) check or an Intelligence (Investigation) check."
+            "В зависимости от цели вашего поиска, ДМ может вынудить вас совершить спасбросок Мудрости (Проницательность) либо Интеллекта (Анализ)."
         ]
     },
     {
-        title: "Sprint",
+        title: "Спринт",
         icon: "sprint",
-        subtitle: "Up to 4x speed",
-        description: "Run up to quadruple your speed",
+        subtitle: "До 4х скорости",
+        description: "Бегите в 4 раза быстрее",
         reference: "Adventurer's Guide, pg. 443",
         bullets: [
             "You may not take any other actions, bonus actions or reactions other than your move speed for the turn.",
@@ -234,57 +234,57 @@ data_action = [
         ]
     },
     {
-        title: "Use Object",
+        title: "Используйте объект",
         icon: "snatch",
-        subtitle: "Interact, use special abilities",
-        description: "Interact with a second object or use special object abilities",
+        subtitle: "Взаимодействуйте, используйте специальные способности",
+        description: "Взаимодействуйте, используйте специальные способности",
         reference: "Adventurer's Guide, pg. 444",
         bullets: [
-            "You can interact with one object for free during your turn (such as drawing a weapon or opening a door). If you want to interact with a second object, use this action.",
-            "When an object requires your action for its use (like administering or drinking a potion), you also take this action."
+            "Вы можете взаимодействовать с одним объектом бесплатно во время вашего хода (к примеру, достать оружие либо открыть дверь). Если вы хотите взаимодейстовать со вторым объектом, используйте это действие.",
+            "Когда объект требует использования действия (стабилизация или использование зелья), вы также используете это действие."
         ]
     },
     {
-        title: "Use shield",
+        title: "Используйте щит",
         icon: "round-shield",
-        subtitle: "Equip or unequip a shield",
-        description: "Equip or unequip a shield",
+        subtitle: "Экипируйте или снимите щит",
+        description: "Экипируйте или снимите щит",
         reference: "Adventurer's Guide, pg. 320",
         bullets: [
-            "A shield always takes an action to equip or unequip.",
-            "Armor takes several minutes to equip or unequip."
+            "Щит всегда требует действия чтобы его экипировать или снять.",
+            "Броня требует нескольких минут чтобы экипировать или снять."
         ]
     },
     {
-        title: "Use class feature",
+        title: "Используйте классовую способность",
         icon: "embrassed-energy",
-        subtitle: "Some features use actions",
-        description: "Use a racial or class feature that uses an action",
-        reference: "See class page for more information.",
+        subtitle: "Некоторые способности используют действие",
+        description: "Используйте расовую либо классовую способность, что требует действия",
+        reference: "Посмотрите страницу класса для большей информации.",
         bullets: [
 
         ]
     },
     {
-        title: "Stabilize a creature",
+        title: "Стабилизируйте существо",
         icon: "first-aid",
-        subtitle: "Administer first aid to a dying creature",
-        description: "Stop a dying creature from needing to make death saving throws",
+        subtitle: "Окажите первую помощь умирающему существу",
+        description: "Избавьте умирающее существо от необходимости совершать спасброски от смерти",
         reference: "Adventurer's Guide, pg. 449.",
         bullets: [
-            "Make a Wisdom (Medicine) check with DC 10",
-            "On a success, the creature is stable and no longer needs to make death saving throws",
-            "A stable creature regains 1 hit point after 1d4 hours"
+            "Совершите бросок Мудрости (Медицина) со сложностью 10",
+            "На успех, существо стабильно и более не нуждается в пробрасывании спасбросков от смерти",
+            "Стабильное существо восстанавливает 1 очко жизни после 1к4 часов"
         ]
     },
     {
-        title: "Improvise",
+        title: "Импровизируйте",
         icon: "juggler",
-        subtitle: "Any action not on this list",
-        description: "Perform any action you can imagine",
+        subtitle: "Любое действие не в списке",
+        description: "Любое действие, которое вы можете вообразить",
         reference: "Adventurer's Guide, pg. 442.",
         bullets: [
-            "When you describe an action not detailed elsewhere in the rules, the DM tells you whether that action is possible and what kind of roll you need to make, if any, to determine success or failure."
+            "Когда вы описываете действие, которое не определено в правилах, ДМ говорит вам, какие действия возможны и какие броски вам следует совершить, если таковы нужны, чтобы определить успех или провал."
         ]
     }
 ]
