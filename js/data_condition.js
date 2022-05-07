@@ -1,263 +1,262 @@
 data_condition = [
     {
-        title: "Blinded",
+        title: "Ослеплён",
         icon: "one-eyed",
-        subtitle: "You can't see",
-        description: "You can't see",
+        subtitle: "Вы не можете видеть",
+        description: "Вы не можете видеть",
         reference: "Adventurer's Guide, pg. 616.",
         bullets: [
-            "A blinded creature can't see and it automatically fails ability checks that require sight.",
-            "You have disadvantage on attack rolls.",
-            "Attack rolls against you have advantage."
+            "Ослеплённое существо ничего не видит и автоматически проваливает все проверки характеристик, связанные со зрением.",
+            "Броски на атаку совершаются с помехой.",
+            "Броски на атаку против вас совершаются с преимуществом."
         ]
     },
     {
-        title: "Bloodied",
+        title: "Кровотечение",
         icon: "ragged-wound",
-        subtitle: "You are bloodied",
-        description: "You are bloodied",
+        subtitle: "Вы кровоточите",
+        description: "Вы кровоточите",
         reference: "Adventurer's Guide, pg. 616.",
         bullets: [
-            "A creature is bloodied when reduced to half its hit points or less."
+            "Существо кровоточит в случае потери половины или более своих очков жизни."
         ]
     },
     {
-        title: "Charmed",
+        title: "Зачарован",
         icon: "smitten",
-        subtitle: "You are charmed",
-        description: "You are charmed by another creature",
+        subtitle: "Вы зачарованы",
+        description: "Вы зачарованы другим существом",
         reference: "Adventurer's Guide, pg. 616.",
         bullets: [
-            "A charmed creature can't take any hostile action against the charmer.",
-            "Ability checks the charmer makes to socially interact with the charmed creature have advantage"
+            "Зачарованное существо не может предпринять враждебных действий против очарователя.",
+            "Очарователь совершает проверки на социальное взаимодействие с зачарованным существом с преимуществом."
         ]
     },
     {
-        title: "Confused",
+        title: "Ошеломлён",
         icon: "think",
-        subtitle: "You are confused",
-        description: "You are confused",
+        subtitle: "Вы ошеломлены",
+        description: "Вы ошеломлены",
         reference: "Adventurer's Guide, pg. 616.",
         bullets: [
-            "A confused creature can't take reactions.",
-            "On its turn a confused creature rolls a d8 to determine what it does.",
-            "<table><tr><th>Roll</th><th></th><th></th><th style='text-align:left'>Effect</th></tr><tr><td>1-4</td><td></td><td></td><td>Does Nothing</td></tr><tr><td>5-6</td><td></td><td></td><td>takes no action or bonus action and uses all its movement to move in a randomly determined direction.</td></tr><tr><td>7-8</td><td></td><td></td><td>makes a melee attack against a randomly determined creature within its reach or does nothing if it can't make such an attack.</td></tr></tr></table>"
+            "Ошеломлённое существо не может использовать реакции.",
+            "В свой ход ошеломлённое существо бросает 1к8 чтобы определить его эффект.",
+            "<table><tr><th>Ролл</th><th></th><th></th><th style='text-align:left'>Эффект</th></tr><tr><td>1-4</td><td></td><td></td><td>Ничего не происходит</td></tr><tr><td>5-6</td><td></td><td></td><td>Не использует действий и бонусных действий, использует всю скорость чтобы двигаться в случайном направлении.</td></tr><tr><td>7-8</td><td></td><td></td><td>Совершает атаку ближнего боя против случайного существа в зоне досягаемости, если такого нет - не делает ничего.</td></tr></tr></table>"
         ]
     },
     {
-        title: "Deafened",
+        title: "Оглушён",
         icon: "elf-ear",
-        subtitle: "You can't hear",
-        description: "You can't hear",
+        subtitle: "Вы не можете слышать",
+        description: "Вы не можете слышать",
         reference: "Adventurer's Guide, pg. 616.",
         bullets: [
-            "A deafened creature can't hear and automatically fails ability checks that require hearing."
+            "Оглушённое существо не может слышать и автоматически проваливает проверки что требуют слуха."
         ]
     },
     {
-        title: "Doomed",
+        title: "Обречён",
         icon: "cursed-star",
-        subtitle: "You are doomed",
-        description: "You are doomed",
+        subtitle: "Вы обречены",
+        description: "Вы обречены",
         reference: "Adventurer's Guide, pg. 616.",
         bullets: [
-            "A doomed creature dies at a time determined by the Narrator, or within 13 (2d12) hours.",
-            "A doomed creature continues to be doomed even after it dies. Magic equivalent to a 7th-level or higher spell can remove the doomed condition (such as regenerate cast on a living creature, resurrection, true resurrection, or wish)."
+            "Обречённое существо умирает во время, которое определяет ДМ, или в течении 13 (2к12) часов.",
+            "Обречённое существо продолжает быть обречённым даже после смерти. Магия, эквивалентна 7 уровню или выше, может снять состояние обречённости."
         ]
     },
     {
-        title: "Encumbered",
+        title: "Перегружен",
         icon: "hand-truck",
-        subtitle: "You are encumbered",
-        description: "You are encumbered",
+        subtitle: "Вы перегружены",
+        description: "Вы перегружены",
         reference: "Adventurer's Guide, pg. 616.",
         bullets: [
-            "An encumbered creature's Speed is reduced to 5 feet.",
+            "Скорость перегруженного существа снижается к 5 футам.",
         ]
     },
     {
-        title: "Fatigue",
+        title: "Истощение",
         icon: "crawl",
-        subtitle: "You are fatigued",
-        description: "fatigue is measured in 7 levels",
+        subtitle: "Вы истощены",
+        description: "Истощение измеряется 7 уровнями",
         reference: "Adventurer's Guide, pg. 618-619.",
         bullets: [
-            "<table><tr><th>Level</th><th></th><th></th><th style='text-align:left'>Effect</th></tr><tr><td>1</td><td></td><td></td><td>Cannot Sprint</td></tr><tr><td>2</td><td></td><td></td><td>Disadvantage on Strength, Dexterity and Constitution checks</td></tr><tr><td>3</td><td></td><td></td><td>Speed halved and unable to maintain a fast travel pace</td></tr><tr><td>4</td><td></td><td></td><td>Disadvantage on attack rolls and saving throws using Strength, Dexterity, or Constitution, and unable to maintain a normal travel pace</td></tr><tr><td>5</td><td></td><td></td><td>Hit Dice halved</td></tr><tr><td>6</td><td></td><td></td><td>Speed reduced to 5 ft. and unable to maintain a slow travel pace</td></tr><tr><td>7</td><td></td><td></td><td>Doomed</td></tr></table>",
-            "You suffer the effect of your current level of Fatigue as well as all lower levels.",
-            "Finishing a long rest at a safe haven reduces your fatigue and strife level by 1, provided that you have also had some food and drink (Supply).",
-            "A creature does not require a haven to recover from the first level of fatigue or strife, but does still require a long rest.",
-            "Also, being raised from the dead reduces a creature's Fatigue and Strife level by 1."
+            "<table><tr><th>Уровень</th><th></th><th></th><th style='text-align:left'>Эффект</th></tr><tr><td>1</td><td></td><td></td><td>Не можете использовать Спринт</td></tr><tr><td>2</td><td></td><td></td><td>Помехи на броски Силы, Ловкости и Телосложения</td></tr><tr><td>3</td><td></td><td></td><td>Скорость уполовинена, невозможно поддерживать темп быстрого путешествия</td></tr><tr><td>4</td><td></td><td></td><td>Помеха на атаки и спасброски, которые проверяют Силу, Ловкость, или Телосложение, вы не можете поддерживать нормальную скорость путешествия</td></tr><tr><td>5</td><td></td><td></td><td>Кость хитов уполовинена</td></tr><tr><td>6</td><td></td><td></td><td>Скорость уменшена до 5 футов, невозможно поддерживать медленный темп путешествия</td></tr><tr><td>7</td><td></td><td></td><td>Вы обречены</td></tr></table>",
+            "Вы страдаете от эффекта текущего уровня Истощения вместе со всеми эффектами от уровней до него.",
+            "Завершая длительный отдых в безопасном месте уменьшает ваше истощение и стресс на 1, в случае если у вас также есть припасы и питьё.",
+            "Существо не нуждается в безопасном месте чтобы восстановиться от первого уровня истощения либо стресса, но всё ещё нуждается в длительном отдыхе.",
+            "Также, будучи поднятым из мёртвых, существо уменьшает уровень истощения и стресса на 1."
         ]
     },
     {
-        title: "Frightened",
+        title: "Напуган",
         icon: "sharp-smile",
-        subtitle: "You are frightened",
-        description: "You are frightened",
+        subtitle: "Вы напуганы",
+        description: "Вы напуганы",
         reference: "Adventurer's Guide, pg. 617.",
         bullets: [
-            "A frightened creature has disadvantage on ability checks and attack rolls while it is able to see the source of its fear",
-            "A frightened creature can't willingly move closer to the source of its fear."
+            "Напуганное существа имеет помеху на проверки способностей и атакующие броски пока оно видит источник страха",
+            "Напуганное существо не может по своему желанию двигаться ближе к источнику своего страха."
         ]
     },
     {
-        title: "Grappled",
+        title: "Захвачен",
         icon: "grab",
-        subtitle: "You are grappled",
-        description: "You are grappled",
+        subtitle: "Вы захвачены",
+        description: "Вы захвачены",
         reference: "Adventurer's Guide, pg. 617.",
         bullets: [
-            "A grappled creature's Speed becomes 0, and it can't benefit from bonuses to movement speeds.",
-            "If the grappler becomes incapacitated the condition ends",
-            "If an effect removes the grappled creature from the reach of the grappler or grappling effect (such as when a creature is shoved away by the Doubleteam combat maneuver) the condition ends."
+            "Скорость захваченного существа становится равной 0, оно не может получать бонусы и преимущества, что зависят от Скорости.",
+            "Если захвативший становится недееспособен, состояние прерывается",
+            "Если эффект удаляет существо из зоны досягаемости захватчика, состояние прерывается."
         ]
     },
     {
-        title: "Incapacitated",
+        title: "Недееспособен",
         icon: "internal-injury",
-        subtitle: "You can't take actions or reactions",
-        description: "You can't take actions or reactions",
+        subtitle: "Вы не можете использовать действия и реакции",
+        description: "Вы не можете использовать действия и реакции",
         reference: "Adventurer's Guide, pg. 617.",
         bullets: [
-            "An incapacitated creature can't take actions, bonus actions, or reactions"
+            "Недееспособное существо не может использовать действия, бонусные действия, и реакции."
         ]
     },
     {
-        title: "Invisible",
+        title: "Невидим",
         icon: "invisible",
-        subtitle: "You can't be seen",
-        description: "You can't be seen without the aid of magic or a special sense",
+        subtitle: "Вас нельзя увидеть",
+        description: "Вас нельзя увидеть без помощи магии или специальных чувств",
         reference: "Adventurer's Guide, pg. 617.",
         bullets: [
-            "An invisible creature is impossible to see without the aid of magic or a special sense (it gains no benefits from this condition against creatures still able to see it).",
-            "An invisible creature is heavily obscured for the purpose of hiding.",
-            "An invisible creature's location can be detected by noises it makes or tracks it leaves.",
-            "An invisible creature makes attack rolls with advantage.",
-            "Attack rolls against an invisible creature are made with disadvantage."
+            "Невидимое существо невозможно увидеть без помощи магии или специальных чувств.",
+            "Невидимое существо полностью закрыто для целей Скрытия.",
+            "Местоположение невидимого существа не может быть раскрыто звуками, что оно издаёт, или следами что оставляет.",
+            "Невидимое существо совершает броски на атаку с преимуществом.",
+            "Броски на атаку по невидимому существу совершаются с помехой."
         ]
     },
     {
-        title: "Paralyzed",
+        title: "Парализован",
         icon: "internal-injury",
-        subtitle: "You are paralyzed",
-        description: "You can't do anything",
+        subtitle: "Вы парализованы",
+        description: "Вы ничего не можете делать",
         reference: "Adventurer's Guide, pg. 617.",
         bullets: [
-            "A paralyzed creature is incapacitated and can't move or speak.",
-            "A paralyzed creature automatically fails Strength and Dexterity saving throws.",
-            "Attack rolls against a paralyzed creature have advantage.",
-            "Any attack that hits a paralyzed creature is a critical hit if the attacker is within 5 feet."
+            "Парализованное существо недееспособно и не может двигаться и говорить.",
+            "Парализованное существо автоматически проваливает спасброски Силы и Ловкости.",
+            "Броски на атаку против парализованного существа совершаются с преимуществом.",
+            "Любая атака что нанесена по парализованному существу является критической если атакующий в пределах 5 футов от цели."
         ]
     },
     {
-        title: "Petrified",
+        title: "Окаменел",
         icon: "stone-pile",
-        subtitle: "You are transformed into stone",
-        description: "You are transformed, along with any nonmagical objects you are wearing or carrying, into a solid inanimate substance (usually stone)",
+        subtitle: "Вы превращены в камень",
+        description: "Вы и все ваши немагические предметы превращены в монолитную структуру (обычно камень)",
         reference: "Adventurer's Guide, pg. 617.",
         bullets: [
-            "A petrified creature's weight is increased by a factor of ten and it ceases aging.",
-            "A petrified creature is incapacitated, can't move or speak, and is unaware of its surroundings.",
-            "A petrified creature automatically fails Strength and Dexterity saving throws.",
-            "A petrified creature has resistance to all damage.",
-            "A petrified creature is immune to poison and disease (time spent petrified does not affect the duration of a poison or disease already in its system)."
+            "Вес окаменевшего существа увеличен в 10 раз и старение существа остановлено.",
+            "Окаменевшее существо недееспособно, не может двигаться, говорить, и не понимает что происходит вокруг",
+            "Окаменевшее существо автоматически проваливает спасброски Силы и Ловкости.",
+            "Окаменевшее существо имеет сопротивление ко всем видам урона. Оно имунно к ядам и болезням."
         ]
     },
     {
-        title: "Poisoned",
+        title: "Отравлен",
         icon: "deathcab",
-        subtitle: "You are poisoned",
-        description: "You are poisoned",
+        subtitle: "Вы отравлены",
+        description: "Вы отравлены",
         reference: "Adventurer's Guide, pg. 617.",
         bullets: [
-            "A poisoned creature has disadvantage on attack rolls and ability checks."
+            "Отравленное существо имеет помеху на броски атаки и проверки способностей."
         ]
     },
     {
-        title: "Prone",
+        title: "Упал ничком",
         icon: "crawl",
-        subtitle: "You are prone",
-        description: "You are prone",
+        subtitle: "Вы упали ничком",
+        description: "Вы упали ничком",
         reference: "Adventurer's Guide, pg. 617.",
         bullets: [
-            "A prone creature's only movement option is to crawl (every 1 foot of movement while crawling costs 1 extra foot) until it stands up.",
-            "Standing up requires half a creature's movement.",
-            "A prone creature makes melee attack rolls with disadvantage.",
-            "An attack roll against a prone creature is made with advantage if the attacker is within 5 feet. Otherwise, the attack roll is made with disadvantage."
+            "Упавшее ничком существо может только ползать (каждый 1 фут перемещения пока ползает, стоит на 1 фут больше), пока не встанет.",
+            "Действие подъёма требует половину движения существа.",
+            "Упавшее ничком существо совершает броски на атаку с помехой.",
+            "Броски атаки против упавшего ничком существа совершаются с преимуществом, если атакующий в пределах 5 футов от цели. Иначе, бросок атаки совершается с помехой."
         ]
     },
     {
-        title: "Rattled",
+        title: "Растерян",
         icon: "rattlesnake",
-        subtitle: "You are rattled",
-        description: "You are rattled",
+        subtitle: "Вы растеряны",
+        description: "Вы растеряны",
         reference: "Adventurer's Guide, pg. 617.",
         bullets: [
-            "A rattled creature cannot benefit from expertise dice",
-            "A rattled creature cannot take reactions.",
-            "A creature that is immune to being stunned is immune to being rattled."
+            "Растерянное существо не может получать преимущества куба экспертизы.",
+            "Растерянное существо не может использовать реакцию.",
+            "Существо, что имунно к оглушению, имунно к растерянности."
         ]
     },
     {
-        title: "Restrained",
+        title: "Опутанный",
         icon: "imprisoned",
-        subtitle: "You are restrained",
-        description: "You are restrained",
+        subtitle: "Вы опутаны",
+        description: "Вы опутаны",
         reference: "Adventurer's Guide, pg. 618.",
         bullets: [
-            "A restrained creature's speed becomes 0, and it can't benefit from bonuses to Speed.",
-            "Attack rolls against a restrained creature are made with advantage.",
-            "A restrained creature makes attacks rolls with disadvantage.",
-            "The restrained creature has disadvantage on Dexterity saving throws."
+            "Скорость опутанного существа равна 0, и оно не получает выгоды ни от каких бонусов к скорости.",
+            "Броски атаки по такому существу совершаются с преимуществом, а его броски атаки — с помехой.",
+            "Существо совершает с помехой спасброски Ловкости."
         ]
     },
     {
-        title: "Slowed",
+        title: "Замедлен",
         icon: "snail",
-        subtitle: "You are slowed",
-        description: "You are slowed",
+        subtitle: "Вы замедлены",
+        description: "Вы замедлены",
         reference: "Adventurer's Guide, pg. 618.",
         bullets: [
-            "A slowed creature's Speed is halved.",
-            "A slowed creature takes a -2 penalty to AC and Dexterity saving throws.",
-            "A slowed creature cannot take reactions.",
-            "On its turn, a slowed creature can take either an action or a bonus action, not both. In addition, it can't make more than one melee or ranged attack during its turn."
+            "Скорость замедленного существа уполовиненна.",
+            "Замедленное существо получает штраф в -2 к спасброскам КБ и Ловкости.",
+            "Замедленное существо не может использовать реакции.",
+            "В свой ход, замедленное существо может использовать либо действие, либо бонусное действие. В дополнение, оно не может совершать более чем одной атаки ближнего либо дальнего боя."
         ]
     },
     {
-        title: "Strife",
+        title: "Стресс",
         icon: "internal-injury",
-        subtitle: "You are suffering from strife",
-        description: "Strife is measured in 7 levels",
+        subtitle: "Вы испытываете стресс",
+        description: "Стресс измеряется 7 уровнями",
         reference: "Adventurer's Guide, pg. 619.",
         bullets: [
-            "<table><tr><th>Level</th><th></th><th></th><th style='text-align:left'>Effect</th></tr><tr><td>1</td><td></td><td></td><td>Disadvantage on Intelligence, Wisdom, and Charisma checks</td></tr><tr><td>2</td><td></td><td></td><td>Disadvantage on concentration checks</td></tr><tr><td>3</td><td></td><td></td><td>Can only take a bonus action or action each turn (not both)</td></tr><tr><td>4</td><td></td><td></td><td>Disadvantage on attack rolls and saving throws using Intelligence, Wisdom, and Charisma</td></tr><tr><td>5</td><td></td><td></td><td>Suffer the effects of a randomly determined short-term mental stress effect. (AG, pg. 620)</td></tr><tr><td>6</td><td></td><td></td><td>Cannot cast spells (but can cast cantrips)</td></tr><tr><td>7</td><td></td><td></td><td>Suffer the effects of a randomly determined long-term mental stress effect. (AG, pg. 621)</td></tr></table>",
-            "You suffer the effect of your current level of Strife as well as all lower levels.",
-            "Finishing a long rest at a safe haven reduces your fatigue and strife level by 1, provided that you have also had some food and drink (Supply).",
-            "A creature does not require a haven to recover from the first level of fatigue or strife, but does still require a long rest.",
-            "Also, being raised from the dead reduces a creature's Fatigue and Strife level by 1."
+            "<table><tr><th>Уровень</th><th></th><th></th><th style='text-align:left'>Эффект</th></tr><tr><td>1</td><td></td><td></td><td>Помехи на броски Интеллекта, Мудрости, и Харизмы.</td></tr><tr><td>2</td><td></td><td></td><td>Помехи на броски концентрации.</td></tr><tr><td>3</td><td></td><td></td><td>Можете использовать либо действие, либо бонусное действие каждый ход (не оба).</td></tr><tr><td>4</td><td></td><td></td><td>Помехи на атакующие броски и спасброски Интеллекта, Мудрости, и Харизмы</td></tr><tr><td>5</td><td></td><td></td><td>Подвержены эффектам случайно определённого краткосрочного ментального стресса. (AG, pg. 620)</td></tr><tr><td>6</td><td></td><td></td><td>Не можете накладывать заклинания, но можете накладывать заговоры</td></tr><tr><td>7</td><td></td><td></td><td>Подвержены эффектам случайно определённого длительного ментального стресса. (AG, pg. 621)</td></tr></table>",
+            "Вы испытываете эффект от текущего уровня Стресса, и от всех уровней до него.",
+            "Завершая длительный отдых в безопасном месте, вы уменьшаете уровень стресса на 1, в случае если у вас есть пища и питьё.",
+            "Существо не требует безопасного места, чтобы восстановить первый уровень усталости или стресса, но всё ещё нуждается в длительном отдыхе.",
+            "Также, будучи поднятым из мёртвых существо уменьшает свой уровень усталости и стресса на 1."
         ]
     },
     {
-        title: "Stunned",
+        title: "Оглушён",
         icon: "internal-injury",
-        subtitle: "You are stunned",
-        description: "You are stunned",
+        subtitle: "Вы оглушены",
+        description: "Вы оглушены",
         reference: "Adventurer's Guide, pg. 618.",
         bullets: [
-            "A stunned creature is incapacitated (see the condition), can't move, and can speak only falteringly.",
-            "The creature automatically fails Strength and Dexterity saving throws.",
-            "Attack rolls against the creature have advantage.",
-            "A creature that is immune to being stunned is immune to being rattled."
+            "Оглушённое существо недееспособно, не может двигаться, может только неуверенно разговаривать.",
+            "Существо автоматически проваливает спасброски Силы и Ловкости.",
+            "Броски на атаку против этого существа совершаются с преимуществом.",
+            "Существо, что имунно к оглушению, имунно к растерянности."
         ]
     },
     {
-        title: "Unconscious",
+        title: "Без сознания",
         icon: "coma",
-        subtitle: "You are unconscious",
-        description: "You are unconscious",
+        subtitle: "Вы терояете сознание",
+        description: "Вы теряете сознание",
         reference: "Adventurer's Guide, pg. 618.",
         bullets: [
+            "Существо без сознания недееспособно, не может двигаться"
             "An unconscious creature is incapacitated, can't move or speak, and is unaware of its surroundings.",
             "An unconscious creature drops whatever it's holding and falls prone.",
             "An unconscious creature automatically fails Strength and Dexterity saving throws.",
