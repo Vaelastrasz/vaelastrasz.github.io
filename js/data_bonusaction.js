@@ -1,63 +1,63 @@
 data_bonusaction = [
     {
-        title: "Offhand Attack",
+        title: "Атака левой рукой",
         icon: "crossed-swords",
-        subtitle: "Use with the Attack action",
-        description: "Attack with your off hand",
+        subtitle: "Используйте с действием Атаки",
+        description: "Атакуйте левой!",
         reference: "Adventurer's Guide, pg. 446",
         bullets: [
-            "When you attack with a weapon that does not have the heavy property and is wielded in one hand, you can use a bonus action to attack with a different dual-wielding weapon in your other hand (see the <i>Offhand attack</i> bonus action).",
-            "You don't add your ability modifier to the damage of the bonus attack, unless that modifier is negative.",
-            "If either weapon has the thrown property, you can throw the weapon, instead of making a melee attack with it.",
-            "If you have the Extra Attack feature, you can use your bonus action to make two attacks with the weapon in your off-hand."
+            "Когда вы атакуете оружием что не имеет свойства Тяжёлое и носите его в одной руке, вы можете использовать бонусное действие чтобы атаковать иным оружием, которое носите в другой руке (см. бонусное действие <i>Атака левой рукой</i>).",
+            "Вы не добавляете модификатор способности к урону бонусной атаки, в случае если этот модификатор не отрицателен.",
+            "Если одно из оружий имеет свойство Бросаемое, вы можете бросить оружие вместо нанесение удара ближнего боя им.",
+            "Если у вас есть свойство Дополнительной Атаки, вы можете использовать ваше бонусное действие чтобы совершить две атаки оружием в левой руке."
         ]
     },
     {
-        title: "Cast a spell",
+        title: "Наложите заклинание",
         icon: "magic-swirl",
-        subtitle: "Cast time of 1 bonus action",
-        description: "Cast a spell with a casting time of 1 bonus action",
+        subtitle: "Время каста - 1 бонусное действие",
+        description: "Наложите заклинание за 1 бонусное действие",
         reference: "Adventurer's Guide, pg. 442, 491.",
         bullets: [
-            "You can't cast a spell with you action and a different spell with your bonus action in the same turn, except if the action is used to cast a cantrip.",
-            "For further details, see the <i>Cast a spell</i> action."
+            "Вы не можете наложить заклинания и действием, и бонусным действием в одном ходу, разве что Дейсвием вы накладываете Заговор.",
+            "Для подробностей, смотрите действие <i>Наложение заклинания</i>."
         ]
     },
     {
-        title: "Press the Attack",
+        title: "Натиск",
         icon: "button-finger",
-        subtitle: "Press the Attack",
-        description: "Attempt to hide",
+        subtitle: "Прессуйте оппонента",
+        description: "Попытка натиска на противника",
         reference: "Adventurer's Guide, pg. 443",
         bullets: [
-            "Before you attack, you can use your bonus action to designate one creature within your reach which is not currently the target of a Press the Attack action",
-            "Until the beginning of your next turn, your melee attacks against that creature gain an expertise die",
-            "While pressing the attack, all attacks against you are made with advantage",
-            "You cannot gain expertise die this way on attacks made with disadvantage",
-            "When you press the attack, your target can *Fall back*",
+            "До вашей атаки, вы можете использовать бонусное действие чтобы выбрать одно существо в вашей досягаемости, которое не является целью <i>Натиска</i>",
+            "В начале вашего следующего хода, ваши атаки ближнего боя против этого существа получают куб экспертизы.",
+            "Когда вы используете Натиск, все атаки против вас проходят с преимуществом",
+            "Вы не можете получить куб экспертизы таким образом на атаки, совершаемые с помехой",
+            "Когда вы используете натиск, ваша цель может <i>Отступить</i>."
         ]
     },
     {
-        title: "Tumble",
+        title: "Кувырок",
         icon: "rolling-energy",
-        subtitle: "Tumble past an enemy",
-        description: "Move through an enemy's space",
+        subtitle: "Кувырок через врага",
+        description: "Кувырок через пространство, что занимает враг",
         reference: "Adventurer's Guide, pg. 444",
         bullets: [
-            "You can use an Action or Bonus Action to Tumble through a hostile creature's space",
-            "Make a Dexterity saving throw against the Target's combat maneuver DC.",
-            "On a success, you can move through the hostile creature's space once this turn.",
-            "If you have proficiency in Acrobatics, you gain an expertise die on the save (or you gain a 1d6 expertise die if you also have the tumbling specialty).",
-            "If you are smaller than the target, you have advantage. If you are two or more sizes larger, you can move through uncontested.",
-            "You still provoke Opportunity attacks if you move beyond a creature's reach"
+            "Вы можете использовать Действие либо Бонусное действие чтобы Кувыркнуться через место, что занимает вражеское существо",
+            "Совершите спасбросок Ловкости против Сложности манёвра цели.",
+            "На успех, вы можете пройти через место, что занимает вражеское существо, один раз за этот ход.",
+            "Если у вас мастерство в Акробатике, вы получаете куб экспертизы на спасбросок (или получаеге 1к6 куб экспертизы если у вас есть специальность Кувырок).",
+            "Если вы меньше цели, у вас преимущество. Если вы в два или более раз больше, вы можете двигаться без сопротивления.",
+            "Вы всё ещё провоцируете Атаки по возможности если двигаетесь в пределах досягаемости существа."
         ]
     },
     {
-        title: "Use class feature",
+        title: "Используйте классовую способность",
         icon: "embrassed-energy",
-        subtitle: "Some features use bonus actions",
-        description: "Use a racial or class feature that uses a bonus action",
-        reference: "See class page for more information.",
+        subtitle: "Некоторые особенности требуют бонусного действия",
+        description: "Используйте рассовую либо классовую способность, что требует бонусного действия",
+        reference: "Смотрите страницу класса для подробностей.",
         bullets: [
 
         ]
