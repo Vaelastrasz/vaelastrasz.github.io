@@ -256,33 +256,32 @@ data_condition = [
         description: "Вы теряете сознание",
         reference: "Adventurer's Guide, pg. 618.",
         bullets: [
-            "Существо без сознания недееспособно, не может двигаться"
-            "An unconscious creature is incapacitated, can't move or speak, and is unaware of its surroundings.",
-            "An unconscious creature drops whatever it's holding and falls prone.",
-            "An unconscious creature automatically fails Strength and Dexterity saving throws.",
-            "Attack rolls against an unconscious creature are made with advantage.",
-            "Any attack that hits an unconscious creature is a critical hit if the attacker is within 5 feet.",
+            "Существо без сознания недееспособно, не может двигаться и разговаривать, и не понимает что происходит вокруг.",
+            "Существо без сознания падает бросате всё что держит, и падает ничком.",
+            "Существо без сознания автоматически проваливает спасброски Силы и Ловкости.",
+            "Броски на атаку против существа без сознания совершаются с преимуществом.",
+            "Любая атака, что проходит по существу без сознания считается критической если атакующий в пределах 5 футов."
         ]
     },
     {
-        title: "Dying",
+        title: "Умираете",
         icon: "dead-head",
-        subtitle: "You are dying",
-        description: "You have been dropped to zero hit points and are dying",
+        subtitle: "Вы умираете",
+        description: "Ваша жизнь упала до ноля и вы умираете",
         reference: "Adventurer's Guide, pg. 448.",
         bullets: [
-            "If you are reduced to 0 hit points by damage that fails to kill you, you fall unconscious.",
-            "If you receive any healing you immediately regain consciousness again and no longer dying.",
-            "Whenever you start your turn with 0 hit points and you're not stable, you are dying and you must make a special saving throw called a death saving throw to determine whether you slip closer to death or cling to life. Roll a d20 and do not add any modifiers.",
-            "A 10 or higher is a success, 9 or lower is a failure.",
-            "On your third success, you become stable.",
-            "On your third failure, you die.",
-            "Rolling a 1 causes you to suffer 1 level of Fatigue and 1 Level of Strife.",
-            "Rolling a 20 immediately causes you to regain 1 hit point and consciousness, and you are able to take the rest of your turn.",
-            "You can also be stabilized by an ally taking the Stabilize action and succeeding on a DC 10 Wisdom (Medicine) check.",
-            "Once stable, you regain 1 hit point after 1d4 hours.",
-            "If you take damage from an attack while you're on 0 hit points, the attacker can choose to make you suffer a death saving throw failure, one level of fatigue, or one level of strife.",
-            "If you take any other damage while you have 0 hit points, you suffer a death saving throw failure. At the Narrator's discretion, depending on the nature of the damage, such as blasting steam or errant magic, this may instead inflict a level of fatigue or strife."
+            "Если ваши очки жизни упали до 0, вы падаете без сознания",
+            "Если вы получаете любое лечение, вы немедленно восстанавливаете сознание и более не умираете.",
+            "Когда вы начинаете ход с 0 очками жизни и вы нестабильны, вы умираете и должны сделать специальный спасбросок от сметри, чтобы определить, вы приближаетесь к смерти или цепляетесь за жизнь. Киньте 1к20 и не добавляйте никаких модификаторов.",
+            "На 10 и более - успех, 9 и менее - провал.",
+            "На третий успех, вы становитесь стабльны.",
+            "На третий провал, вы умираете.",
+            "Выпадение 1 вынуждает вас добавить 1 уровень стресса и 1 уровень истощения.",
+            "Выпадение 20 немедленно добавляем вам 1 очко жизни и возвращает сознание, вы можете отдохнуть до конца вашего хода.",
+            "Вы также можете быть стабилизированы союзником",
+            "Когда стабильны, вы получаете 1 очко жизни после 1к4 часов.",
+            "Если вы получаете урон от атак пока у вас 0 очков жизни, атакующий выбирает: вам добавляется 1 уровень стресса, вас добавляется 1 уровень истощения, либо вы получаете 1 провал на спасбросок от смерти.",
+            "Если вы получаете любой другой урон, пока у вас 0 очков жизни, вы получаете 1 провал на спасбросок от смерти. В случае решения ДМ, в зависимости от природы урона, вы можете сразу же умереть от истощения либо стресса."
         ]
     }
 ]
