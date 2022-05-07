@@ -1,101 +1,101 @@
 data_movement = [
     {
-        title: "Move",
+        title: "Перемещение",
         icon: "run",
-        subtitle: "Cost: 5ft per 5ft",
-        description: "Movement cost: 5ft per 5ft moved",
+        subtitle: "Цена: 5 футов за 5 футов",
+        description: "Цена перемещения: 5 футов за 5 футов",
         reference: "Adventurer's Guide, pg. 439.",
         bullets: [
-            "If you have more than one speed, such as your walking speed and a flying speed, you can switch back and forth between your speeds during your move. Whenever you switch, subtract the distance you've already moved from the new speed.",
-            "You can move through a nonhostile creature's space.",
-            "You can move through a hostile creature's space only if the creature is at least two sizes larger or smaller than you.",
-            "Another creature's space is difficult terrain for you.",
-            "Whether a creature is a friend or an enemy, you can't willingly end your move in its space."
+            "Если у вас есть несколько скоростей, например, скорость ходьбы и скорость полёта, вы можете переключаться между ними во время перемещения. При каждом переключении вычитайте уже пройдённое расстояние из новой скорости.",
+            "Вы можете проходить сквозь пространство невраждебных существ.",
+            "Сквозь пространство враждебного существа можно пройти только если его размер как минимум на две категории больше или меньше вашего.",
+            "Пространство других существ является для вас труднопроходимой местностью.",
+            "Вне зависимости от того, дружественное существо или нет, вы не можете добровольно закончить перемещение в его пространстве."
         ]
     },
     {
-        title: "Climb",
+        title: "Лазание",
         icon: "crags",
-        subtitle: "Cost: 10ft per 5ft",
-        description: "Movement cost: 10ft per 5ft climbed",
+        subtitle: "Цена: 10 футов за 5 футов",
+        description: "Цена перемещения: 10 футов за 5 футов",
         reference: "Adventurer's Guide, pg. 439.",
         bullets: [
-            "May involve a Strength (Athletics) check if the climb is difficult"
+            "Лазание по скользкой вертикальной поверхности или поверхности, где мало за что можно ухватиться, может требовать успешную проверку Силы (Атлетика)."
         ]
     },
     {
-        title: "Swim",
+        title: "Плавание",
         icon: "at-sea",
-        subtitle: "Cost: 10ft per 5ft",
-        description: "Movement cost: 10ft per 5ft swum",
+        subtitle: "Цена: 10 футов за 5 футов",
+        description: "Цена перемещения: 10 футов за 5 футов",
         reference: "Adventurer's Guide, pg. 439.",
         bullets: [
-            "May involve a Strength (Athletics) check if the swim is difficult"
+            "Плавание в бурных водах может требовать успешную проверку Силы (Атлетика)."
         ]
     },
     {
-        title: "Drop prone",
+        title: "Упасть ничком",
         icon: "falling",
-        subtitle: "Cost: 0ft",
-        description: "Movement cost: 0ft (free)",
+        subtitle: "Цена: 0 футов",
+        description: "Цена перемещения: 0 футов",
         reference: "Adventurer's Guide, pg. 441.",
         bullets: [
-            "You can drop prone without using any of your speed",
-            "You can also drop prone as a reaction to being targeted by a ranged attack you can see.",
-            "To move while prone, you must crawl or use magic such as teleportation",
-            "Dropping prone adds the <i>Prone</i> condition (Attackers within 5 feet have advantage against you, otherwise they have disadvantage, your own melee attacks have disadvantage)"
+            "Вы можете упасть ничком, не тратя скорость.",
+            "Вы также можете упасть ничком как реакция на дальнобойнюю атаку, что вы видите.",
+            "Для перемещения в положении лёжа нужно или ползти, или использовать магию, такую как телепортация.",
+            "Падение даёт состояние <i>лежащий ничком</i> (броски рукопашной атаки по существу совершаются с преимуществом, броски дальнобойной атаки по существу совершаются с помехой, само существо получает помеху на свои броски атаки)"
         ]
     },
     {
-        title: "Crawl",
+        title: "Ползание",
         icon: "crawl",
-        subtitle: "Cost: 10ft per 5ft",
-        description: "Movement cost: 10ft per 5ft crawled",
+        subtitle: "Цена: 10 футов за 5 футов",
+        description: "Цена перемещения: 10 футов за 5 футов",
         reference: "Adventurer's Guide, pg. 441.",
         bullets: [
-            "This speed cost stacks with difficult terrain. Crawling in difficult terrain would cost 15ft per 5ft crawled"
+            "Эта стоимость перемещения слагается с стоимостью от труднопроходимой местности. Ползание в труднопроходимой местности будет стоить 15 футов за 5 футов."
         ]
     },
     {
-        title: "Stand up",
+        title: "Встать",
         icon: "strong",
-        subtitle: "Cost: half movement speed",
-        description: "Movement cost: half of your speed",
+        subtitle: "Цена: половина скорости перемещения",
+        description: "Цена перемещения: половина скорости перемещения",
         reference: "Adventurer's Guide, pg. 441.",
         bullets: [
-            "You can't stand up if you don't have enough movement left or if your speed is 0"
+            "Вы не можете встать если у вас осталось недостаточно движения, или если ваша скорость равна 0."
         ]
     },
     {
-        title: "High jump",
+        title: "Прыжок в высоту",
         icon: "wingfoot",
-        subtitle: "Cost: 5ft per 5ft",
-        description: "Movement cost: 5ft per 5ft jumped",
-        
+        subtitle: "Цена: 5 футов за 5 футов",
+        description: "Цена перемещения: 5 футов за 5 футов",
         reference: "Adventurer's Guide, pg. 419.",
         bullets: [
-            "You leap into the air a number of feet equal to <b>3 + your Strength modifier</b> if you move at least 10 feet on foot immediately before the jump.",
-            "When you make a standing high jump, you can jump only half that distance.",
-            "You can extend your arms half your height above yourself during the jump. (Thus a creature can reach above itself equal to the height of a jump plus 1.5 times its height.)",
-            "In some circumstances, your DM might allow you to make a Strength (Athletics) check to jump higher than you normally can.",
+            "Если вы совершаете прыжок в высоту, вы поднимаетесь в воздух на количество футов, равное 3 + модификатор Силы, если непосредственно перед прыжком переместились минимум на 10 футов.",
+            "Если вы совершаете прыжок в высоту без разбега, прыгнуть можно только на половину этой дистанции.",
+            "Руки можно вытянуть вверх на половину своего роста. (В таком случае существо может достать над собой до расстояния, равной высоте прыжка плюс высота существа умноженная на 1.5.)",
+            "В некоторых случаях ДМ может позволить совершить проверку Силы (Атлетика), чтобы прыгнуть выше, чем обычно.",
+            "Когда дистанция прыжка существа превышает его Скорость, оно может прыгнуть на дистанцию равную своей Скорости умноженной на 2",
             "When a creature's jumping distance exceeds its Speed, it can jump up to a distance equal to twice its Speed in a single leap so long as it takes no other movement on that turn other than to jump. In either case, a creature uses up a foot of movement for every foot it covers jumping."
         ]
     },
     {
-        title: "Long jump",
+        title: "Прыжок в длину",
         icon: "wingfoot",
-        subtitle: "Cost: 5ft per 5ft",
-        description: "Movement cost: 5ft per 5ft jumped",
+        subtitle: "Цена: 5 футов за 5 футов",
+        description: "Цена перемещения: 5 футов за 5 футов",
         reference: "Adventurer's Guide, pg. 419.",
         bullets: [
-            "You cover a number of feet up to your <b>Strength score</b> if you move at least 10 feet on foot immediately before the jump.",
+            "Если вы совершаете прыжок в длину, вы покрываете количество футов, равное значению Силы, если непосредственно перед прыжком переместились минимум на 10 футов.",
             "May involve a DC 10 Strength (Athletics) check to clear a low obstacle (no taller than a quarter of the jump's distance). You hit the obstacle on a failed check.",
             "May involve a DC 10 Dexterity (Acrobatics) check to land on your feet in difficult terrain. You land prone on a failed check.",
             "When a creature's jumping distance exceeds its Speed, it can jump up to a distance equal to twice its Speed in a single leap so long as it takes no other movement on that turn other than to jump. In either case, a creature uses up a foot of movement for every foot it covers jumping."
         ]
     },
     {
-        title: "Tactical Positioning",
+        title: "Тактическое позиционирование",
         icon: "encirclement",
         subtitle: "Tactical Positioning in combat",
         description: "Position in combat can give you or your allies the upper hand during Turn-Based Action",
@@ -109,32 +109,32 @@ data_movement = [
         ]
     },
     {
-        title: "Improvise",
+        title: "Импровизация",
         icon: "juggler",
-        subtitle: "Any stunt not on this list",
-        description: "Perform any movement or stunt you can imagine",
+        subtitle: "Любое перемещение не описанное в правилах",
+        description: "Любое перемещение что вы можете вообразить",
         bullets: [
-            "When you describe a kind of movement not detailed elsewhere in the rules, the DM tells you whether it is possible and what kind of roll you need to make, if any, to determine success or failure."
+            "Когда вы хотите совершить движение, не описанное в правилах, ДМ решает возможно ли это и назначает проверки."
         ]
     },
     {
-        title: "Difficult terrain",
+        title: "Труднопроходимая местность",
         icon: "stone-pile",
-        subtitle: "Cost modifier: +5ft per 5ft",
+        subtitle: "Модификтор стоимости перемещения: +5 футов за 5 футов",
         reference: "Adventurer's Guide, pg. 451.",
-        description: "Moving in difficult terrain costs an additional 5ft per 5ft of movement",
+        description: "Передвижение по труднопроходимой местности стоит дополнительных 5 футов за 5 футов перемещения",
         bullets: [
         ]
     },
     {
-        title: "Grapple move",
+        title: "Перемещение захваченного",
         icon: "grab",
-        subtitle: "Modifier: speed halved",
-        description: "Drag or carry the grappled creature with you",
+        subtitle: "Модфикатор: скорость уполовинивается",
+        description: "Толкать или нести захваченное существо",
         reference: "Adventurer's Guide, pg. 458-459",
         bullets: [
-            "When you move, you can drag or carry the grappled creature with you. When you do so, your Speed is halved, unless the creature's weight is within your carrying capacity and you are not encumbered by bulky items.",
-            "See the attack action for how to grapple a creature."
+            "Если вы перемещаетесь во время захвата, вы можете тащить или нести захваченное существо вместе с собой, но ваша скорость уменьшается вдвое, если только существо не меньше вас как минимум на две категории.",
+            "Смотрите действие захвата для дополнительной информации."
         ]
     }
 ]
