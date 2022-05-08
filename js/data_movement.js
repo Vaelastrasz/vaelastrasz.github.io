@@ -77,9 +77,7 @@ data_movement = [
             "Если вы совершаете прыжок в высоту без разбега, прыгнуть можно только на половину этой дистанции.",
             "Руки можно вытянуть вверх на половину своего роста. (В таком случае существо может достать над собой до расстояния, равной высоте прыжка плюс высота существа умноженная на 1.5.)",
             "В некоторых случаях ДМ может позволить совершить проверку Силы (Атлетика), чтобы прыгнуть выше, чем обычно.",
-            "Когда дистанция прыжка существа превышает его Скорость, оно может прыгнуть на дистанцию равную своей Скорости умноженной на 2",
-            "When a creature's jumping distance exceeds its Speed, it can jump up to a distance equal to twice its Speed in a single leap so long as it takes no other movement on that turn other than to jump. In either case, a creature uses up a foot of movement for every foot it covers jumping."
-        ]
+            "Когда дистанция прыжка существа превышает его Скорость, оно может прыгнуть на дистанцию равную своей Скорости умноженной на 2, если не будет совершено других движенй в этот ход."        ]
     },
     {
         title: "Прыжок в длину",
@@ -89,23 +87,23 @@ data_movement = [
         reference: "Adventurer's Guide, pg. 419.",
         bullets: [
             "Если вы совершаете прыжок в длину, вы покрываете количество футов, равное значению Силы, если непосредственно перед прыжком переместились минимум на 10 футов.",
-            "May involve a DC 10 Strength (Athletics) check to clear a low obstacle (no taller than a quarter of the jump's distance). You hit the obstacle on a failed check.",
-            "May involve a DC 10 Dexterity (Acrobatics) check to land on your feet in difficult terrain. You land prone on a failed check.",
-            "When a creature's jumping distance exceeds its Speed, it can jump up to a distance equal to twice its Speed in a single leap so long as it takes no other movement on that turn other than to jump. In either case, a creature uses up a foot of movement for every foot it covers jumping."
+            "Иногда вы должны преуспеть в проверке Силы (Атлетика) со сложностью 10, чтобы перепрыгнуть через препятствие (не выше четверти расстояния прыжка), такое как изгородь или невысокая стена. В противном случае вы ударяетесь об него.",
+            "Если вы приземляетесь в труднопроходимую местность, вы должны преуспеть в спасброске Ловкости (Акробатика) со сложностью 10, чтобы приземлиться на ноги. В противном случае вы падаете ничком.",
+            "Когда дистанция прыжка существа превышает его Скорость, оно может прыгнуть на дистанцию равную своей Скорости умноженной на 2, если не будет совершено других движенй в этот ход."
         ]
     },
     {
         title: "Тактическое позиционирование",
         icon: "encirclement",
-        subtitle: "Tactical Positioning in combat",
-        description: "Position in combat can give you or your allies the upper hand during Turn-Based Action",
+        subtitle: "Тактическое позиционирование в бою",
+        description: "Позиция в бою может сильно повлиять на его исход",
         reference: "Adventurer's Guide, pg. 441.",
         bullets: [
-            "Attacking from Above: If you are at least 5 feet above your target and you aren't grappled or restrained, you gain an expertise die on melee attack rolls made against it.",
-            "Back-to-Back: When you are adjacent to an ally, you can use a bonus action to stand back-to-back. While back-to- back with an ally it is harder to be caught off guard, and you cannot be flanked. As long as neither you nor your ally move, your passive Perception is increased by 2 until either the start of your next turn or when one of you moves.",
-            "Dragging an Ally: While adjacent to a willing ally, you can use your reaction to grab them by the hand and pull them along with your movement even if they've already expended all of theirs. While doing so, every foot of movement costs you an additional 2 feet of move- ment, and the ally cannot use their reaction. This movement provokes opportunity attacks as normal.",
-            "Flanking: When you and an ally are on direct opposite sides of a target, you gain an expertise die on your actions against that target. You and your ally cannot flank for one another if either of you are incapacitated. If you are not using a grid for combat, flanking instead occurs when three or more creatures are attacking the same creature in melee.",
-            "Pulling From Below: If you are at least 5 feet below your target, your target is your size or smaller, and you aren't grappled or restrained, you gain an expertise die on Strength checks and saving throws made against it."
+            "Атака сверху: Если вы на 5 футов или более выше цели и не схвачены, вы получаете куб экспертизы на броски атаки ближнего боя против этой неё.",
+            "Спина к спине: Когда вы на соседней клетке к союзнику, вы можете использовать бонусное действие чтобы встать спина к спине. Когда вы в этом положении, вас сложнее застигнуть врасплох, и к вам нельзя зайти со стороны. Пока вы и ваш союзник не двигаетесь, вы получаете +2 к пассивному Восприятию в начале вашего хода, либо когда один из вас двигается.",
+            "Оттащить союзника: Когда вы на соседней клетке к союзнику, вы можете использовать реакцию, чтобы схватить его рука об руку, и потянуть его с вашим движением, даже если его Скорость уже вычерпана. Когда это происходит, каждый фут движения стоитт на 3 фута, и союзник не может использовать свою реакцию. Это движение провоцирует Атаки по возможности.",
+            "Заход со стороны: Когда вы и союзник на ровно противоположных сторонах цели, вы получаете куб экспертизы на действия, совершаемые против цели. Вы и ваш союзник не можете заходить сбоку, если кто либо из вас недееспособен.",
+            "Потянуть снизу: Если вы на 5 футов или более ниже цели, цель вашего размера или меньше, и вы не захвачены, вы получаете куб экспертизы на проверки Силы и спасброски против неё."
         ]
     },
     {
