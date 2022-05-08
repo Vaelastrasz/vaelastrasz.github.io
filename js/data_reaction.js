@@ -15,7 +15,7 @@ data_reaction = [
     {
         title: "Подготовленное действие",
         icon: "stopwatch",
-        subtitle: "Часть вашего подготовленного действия",
+        subtitle: "Ваше подготовленное действие",
         description: "Исполните реакцию, которую вы подготовили",
         reference: "Adventurer's Guide, pg. 443.",
         bullets: [

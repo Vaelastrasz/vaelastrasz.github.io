@@ -115,7 +115,7 @@ data_condition = [
     {
         title: "Недееспособен",
         icon: "internal-injury",
-        subtitle: "Вы не можете использовать действия и реакции",
+        subtitle: "Вы пропускаете действия и реакции",
         description: "Вы не можете использовать действия и реакции",
         reference: "Adventurer's Guide, pg. 617.",
         bullets: [
