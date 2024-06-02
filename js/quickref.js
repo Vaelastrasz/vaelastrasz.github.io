@@ -14,6 +14,8 @@ function add_quickref_item(parent, data, type) {
     </div>\
     ';
 
+    console.log("Item " + title + " added");
+
     var style = window.getComputedStyle(parent.parentNode.parentNode);
     var color = style.backgroundColor;
 
@@ -40,11 +42,15 @@ function show_modal(data, color, type) {
     $("#modal-subtitle").text(subtitle);
     $("#modal-reference").text(reference);
 
+    console.log("Show modal for title " + title + " and reference " + reference);
+
     var bullets_html = bullets.map(function (item) { return "<p class=\"fonstsize\">" + item + "</p>"; }).join("\n<hr>\n");
     $("#modal-bullets").html(bullets_html);
 }
 
 function hide_modal() {
+    console.log("Modal hidden");
+    
     $("body").removeClass("modal-open");
     $("#modal").removeClass("modal-visible");
 }
